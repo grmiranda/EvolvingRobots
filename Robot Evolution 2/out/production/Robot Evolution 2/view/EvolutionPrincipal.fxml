@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.ConfigurarEvolutionPrincipal">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="136.0" style="-fx-background-color: #5191FD;">
+         <children>
+            <Pane layoutX="12.0" layoutY="88.0" prefHeight="71.0" prefWidth="121.0" />
+            <Pane layoutX="15.0" layoutY="233.0" prefHeight="71.0" prefWidth="121.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="136.0" prefHeight="500.0" prefWidth="814.0">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="709.0" layoutY="445.0" onAction="#iniciar" prefHeight="31.0" prefWidth="82.0" style="-fx-background-color: #5191FD;" text="Iniciar" textFill="WHITE" />
+            <JFXTextArea fx:id="consoleLog" editable="false" focusColor="#5191fd" layoutX="26.0" layoutY="61.0" prefHeight="310.0" prefWidth="383.0" style="-fx-background-color: #DCDCDC;" />
+            <Label layoutX="139.0" layoutY="35.0" text="Console de saida da evolução" />
+            <Label layoutX="474.0" layoutY="102.0" text="Geração atual:" />
+            <Label fx:id="contadorGeracao" layoutX="570.0" layoutY="102.0" text="0" />
+            <ProgressBar fx:id="progressBar" layoutX="463.0" layoutY="144.0" prefHeight="18.0" prefWidth="311.0" progress="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

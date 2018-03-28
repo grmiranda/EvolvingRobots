@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="64Bit">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../Remote API Files/64Bit" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
