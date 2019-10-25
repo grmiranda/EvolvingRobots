@@ -3,6 +3,8 @@
 
 A framework for evolutionary robotics for Coppellia Robotics' V-REP http://www.coppeliarobotics.com/
 
+This project was supported by CNPq and UEFS.
+
 # Estrutura Geral
 O simulador conta com uma estrutura baseada no modelo "Cliente - Servidor", onde o Framework funciona como um cliente que se conecta a diversos servidores (Simulador V-REP).
 
